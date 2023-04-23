@@ -1,0 +1,547 @@
+.navigation-container {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.1);
+  display: block;
+  padding: 8px;
+  margin: 0 auto;
+  background-color: #f0ece2;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  margin: 0 50px;
+}
+#list-menu1 {
+  cursor: pointer;
+  color: #db996c;
+  text-decoration: none;
+}
+#list-menu1:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+#list-menu2 {
+  cursor: pointer;
+  color: #db996c;
+  text-decoration: none;
+}
+#list-menu2:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+
+#list-menu3 {
+  cursor: pointer;
+  color: #db996c;
+  text-decoration: none;
+}
+
+#list-menu3:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+#list-menu4 {
+  cursor: pointer;
+  color: #db996c;
+  text-decoration: none;
+}
+#list-menu4:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+#list-menu5 {
+  cursor: pointer;
+  color: #db996c;
+  text-decoration: none;
+}
+#list-menu5:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+.top-navigation:hover {
+  text-decoration: none;
+}
+.description {
+  text-align: center;
+  font-size: 50px;
+  color: #db5f29;
+  font-weight: 400;
+  font-family: "La Belle Aurore", cursive;
+  letter-spacing: 10px;
+  padding: 25px;
+  margin: 0 auto;
+}
+.world-map {
+  display: block;
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+}
+.zanzibar {
+  position: absolute;
+  margin: 0 auto;
+  width: 130px;
+  padding: 3px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 500px;
+  left: 760px;
+  border: 1px solid #6e4c41;
+}
+.southA {
+  position: absolute;
+  margin: 0 auto;
+  width: 130px;
+  padding: 3px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 550px;
+  left: 520px;
+  border: 1px solid #6e4c41;
+}
+.barcelona-church {
+  position: absolute;
+  margin: 0 auto;
+  width: 130px;
+  padding: 3px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 350px;
+  left: 430px;
+  border: 1px solid #6e4c41;
+}
+.germany {
+  position: absolute;
+  margin: 0 auto;
+  width: 130px;
+  padding: 3px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 190px;
+  left: 650px;
+  border: 1px solid #6e4c41;
+}
+.big-ben {
+  position: absolute;
+  margin: 0 auto;
+  width: 130px;
+  padding: 3px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 190px;
+  left: 440px;
+  border: 1px solid #6e4c41;
+}
+.india-map {
+  position: absolute;
+  margin: 0 auto;
+  width: 130px;
+  padding: 3px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  top: 280px;
+  left: 800px;
+  border: 1px solid #6e4c41;
+}
+.germany1-image {
+  width: 350px;
+  position: relative;
+  left: 10px;
+  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3);
+  float: left;
+  margin: 0 100px;
+  border: 1px solid #6e4c41;
+}
+.pin-location-southA {
+  position: absolute;
+  margin: 0 auto;
+  width: 50px;
+  padding: 3px;
+  top: 530px;
+  left: 650px;
+}
+.pin-location-zanzibar {
+  position: absolute;
+  margin: 0 auto;
+  width: 50px;
+  padding: 3px;
+  top: 510px;
+  left: 710px;
+}
+.pin-location-uk {
+  position: absolute;
+  margin: 0 auto;
+  width: 50px;
+  padding: 3px;
+  top: 300px;
+  left: 570px;
+}
+.pin-location-spain {
+  position: absolute;
+  margin: 0 auto;
+  width: 50px;
+  padding: 3px;
+  top: 340px;
+  left: 565px;
+}
+.pin-location-germany {
+  position: absolute;
+  margin: 0 auto;
+  width: 50px;
+  padding: 3px;
+  top: 300px;
+  left: 610px;
+}
+.pin-location-india {
+  position: absolute;
+  margin: 0 auto;
+  width: 50px;
+  padding: 3px;
+  top: 410px;
+  left: 800px;
+}
+.about-me {
+  display: block;
+  padding: 60px;
+  background-color: #f0ece2;
+}
+
+.about-me-content {
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+  padding: 20px;
+}
+.compass {
+  position: absolute;
+  right: 30px;
+  margin: -120px 90px;
+  width: 250px;
+}
+.gallery-image {
+  display: grid;
+  margin: 0 auto;
+  width: 330px;
+  padding: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #c7b198;
+  filter: brightness(80%);
+}
+.gallery-container {
+  margin: 0 auto;
+  padding: 60px 0px 10px 0px;
+}
+.selector-container {
+  display: grid;
+  position: relative;
+  color: #fff;
+  top: -220px;
+  text-align: center;
+  letter-spacing: 8px;
+  font-weight: 300;
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+#gallery-link:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+.story-telling {
+  display: block;
+  padding: 80px 0px 60px 0px;
+  background-color: #f0ece2;
+}
+.lost-luggage {
+  width: 400px;
+  box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.2);
+}
+.story-telling-content {
+  font-family: "Quicksand", sans-serif;
+  text-align: right;
+  padding: 0px 10px 0px 3px;
+}
+.story-telling-heading {
+  font-family: "Quicksand", sans-serif;
+}
+#story-telling-sub {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+}
+.story-telling-section {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Homemade Apple", cursive;
+  letter-spacing: 10px;
+  position: absolute;
+  left: 100px;
+  top: 1680px;
+}
+.map-location {
+  position: absolute;
+  margin: 0 auto;
+  width: 260px;
+  padding: 3px;
+  top: 2200px;
+  left: 190px;
+}
+.postage-stamp {
+  position: absolute;
+  margin: 0 auto;
+  height: 250px;
+  padding: 3px;
+  top: 2990px;
+  left: 70px;
+}
+.shop-container {
+  display: block;
+  padding: 30px 0px 20px 0px;
+  background-color: #c7b198;
+}
+#shop-heading {
+  text-align: center;
+  font-size: 80px;
+  color: #6e4c41;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin: 0 auto;
+}
+#shop-sub {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "La Belle Aurore", cursive;
+  letter-spacing: 3px;
+  padding: 0px 0px 20px 0px;
+  margin: 0 auto;
+}
+.skirt-image {
+  display: grid;
+  margin: 0 auto;
+  width: 290px;
+  padding: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0ece2;
+}
+.skirt-image:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+#product1 {
+  color: #6e4c41;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "La Belle Aurore", cursive;
+  text-decoration: none;
+}
+#product1:hover {
+  opacity: 70%;
+  color: #fff;
+  cursor: pointer;
+}
+.kimono-image {
+  display: grid;
+  margin: 0 auto;
+  width: 290px;
+  height: 420px;
+  padding: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0ece2;
+}
+#product2 {
+  color: #6e4c41;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "La Belle Aurore", cursive;
+  text-decoration: none;
+}
+.kimono-image:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+#product2:hover {
+  opacity: 70%;
+  color: #fff;
+  cursor: pointer;
+}
+.wrap-image {
+  display: grid;
+  margin: 0 auto;
+  width: 290px;
+  height: 420px;
+  padding: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0ece2;
+}
+#product3 {
+  color: #6e4c41;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "La Belle Aurore", cursive;
+  text-decoration: none;
+}
+.wrap-image:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+#product3:hover {
+  opacity: 70%;
+  color: #fff;
+  cursor: pointer;
+}
+.kimono3-image {
+  display: grid;
+  margin: 0 auto;
+  width: 290px;
+  height: 420px;
+  padding: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0ece2;
+}
+#product4 {
+  color: #6e4c41;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "La Belle Aurore", cursive;
+  text-decoration: none;
+}
+.kimono3-image:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+#product4:hover {
+  opacity: 70%;
+  color: #fff;
+  cursor: pointer;
+}
+.prices-container {
+  display: grid;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}
+.signup-container {
+  background-color: #f0ece2;
+  padding: 30px;
+}
+#signup {
+  font-family: "Homemade Apple", cursive;
+  font-size: 18px;
+  padding: 18px 0px;
+  text-align: right;
+}
+.form-fill {
+  padding: 15px 15px;
+}
+#list-nav1 {
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+#list-nav1:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+#list-nav2 {
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+#list-nav2:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+#list-nav3 {
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+#list-nav3:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+#list-nav4 {
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+#list-nav4:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+#list-nav5 {
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+#list-nav5:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+#list-nav6 {
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+#list-nav6:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #6e4c41;
+}
+.info-container {
+  padding: 50px 10px 20px 10px;
+}
+
+#info1 {
+  font-size: 20px;
+  text-align: right;
+}
+#info2 {
+  font-size: 20px;
+  text-align: left;
+}
+.icons-container {
+  font-size: 30px;
+  letter-spacing: -40px;
+  background-color: #000;
+  opacity: 60%;
+  padding: 20px;
+}
+.youtube-icon {
+  display: inline-block;
+  width: 60px;
+  padding: 0px 10px 0px 10px;
+}
+.youtube-icon:hover {
+  cursor: pointer;
+}
+.instagram-icon {
+  width: 50px;
+  padding: 0px 10px 0px 10px;
+}
+.instagram-icon:hover {
+  cursor: pointer;
+}
+
+#code-builder {
+  text-align: center;
+  padding: 10px;
+}
+.designer {
+  color: #db5f29;
+}
